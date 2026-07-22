@@ -30,6 +30,9 @@ h2 {
   align-items: center;
   gap: 0.5rem;
 }
+.userCardCont1:hover{
+    background-color: #f8e4e4;
+}
 .imageWrapper1 {
   width: 11rem;
   height: 11rem;
@@ -79,12 +82,17 @@ h2 {
   color: #343132;
   overflow: hidden;
 }
+.socialLink1:hover{
+    cursor: pointer;
+    background-color: #d7d0d3;
+}
+.socialLink1:active{
+    color:gold;
+    background-color: #3c0417;
+}
 .socialLink1:first-of-type i{
   margin-bottom: -10px;
   font-size: 1.5rem;
-}
-hr {
-  
 }
 .btnWrapper1{
     align-self: stretch;
@@ -92,10 +100,17 @@ hr {
     gap: 1rem;
     justify-content: space-between;
 }
-.btnUser11, .btnUser12{
+.btn1{
     color: #e6edef;
     padding: 10px;
     width:100%
+}
+.btn1:hover{
+    background-color: #832a47;
+}
+.btn1:active{
+    color:gold;
+    background-color: #3c0417;
 }
 .btnUser11{
     background-color: #806f51;
