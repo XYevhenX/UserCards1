@@ -87,6 +87,7 @@ h2 {
 .socialLink1:hover {
   cursor: pointer;
   background-color: #d7d0d3;
+  box-shadow: 0 0 2rem rgb(186, 186, 186);
 }
 .socialLink1:active {
   color: gold;
@@ -142,7 +143,6 @@ h2 {
   height: 6rem;
   background-color: antiquewhite;
   background-image: url(/assets/images/user2.jpg);
-  /* overflow: hidden; */
   background-size: cover;
   background-position: top;
   border-radius: 50%;
@@ -154,6 +154,12 @@ h2 {
   align-self: end;
   font-size: 1.2rem;
   color: #babebf;
+}
+.dotsCard2:hover{
+  cursor: pointer;
+}
+.dotsCard2:active{
+  color:black;
 }
 .userApproveMark {
   font-size: 0.8rem;
@@ -203,6 +209,7 @@ h2 {
   color: white;
   overflow: hidden;
 }
+
 .socialLink2:first-child{
   background-color: #43b3f5;
 }
@@ -215,11 +222,31 @@ h2 {
 .socialLink2:nth-child(4){
   background-color: #1a67ff;
 }
+.socialLink2:hover{
+  cursor: pointer;
+  color:black;
+  background-color: #d7d0d3;
+}
+.socialLink2:active {
+  color: gold;
+  background-color: #3c0417;
+}
 .viewBtn{
   padding: 0.75rem;
   border: 1px solid rgb(112, 112, 112);
   color: rgb(112, 112, 112);
-  border-radius: 2rem;
+  border-radius: 3rem;
   width: 70%;
   margin-bottom: 1.5rem;
+}
+.viewBtn:hover{
+  color:white;
+  background-color: #31b6c0;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 2rem rgb(186, 186, 186);
+}
+.viewBtn:active {
+  color: gold;
+  background-color: #3c0417;
 }
