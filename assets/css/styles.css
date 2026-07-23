@@ -30,12 +30,13 @@ h2 {
   align-items: center;
   gap: 0.5rem;
 }
-.userCardCont1:hover{
-    background-color: #f8e4e4;
+.userCardCont1:hover {
+  background-color: #f8e4e4;
 }
 .imageWrapper1 {
   width: 11rem;
   height: 11rem;
+  background-color: antiquewhite;
   background-image: url(/assets/images/user1.jpg);
   overflow: hidden;
   background-size: cover;
@@ -82,41 +83,41 @@ h2 {
   color: #343132;
   overflow: hidden;
 }
-.socialLink1:hover{
-    cursor: pointer;
-    background-color: #d7d0d3;
+.socialLink1:hover {
+  cursor: pointer;
+  background-color: #d7d0d3;
 }
-.socialLink1:active{
-    color:gold;
-    background-color: #3c0417;
+.socialLink1:active {
+  color: gold;
+  background-color: #3c0417;
 }
-.socialLink1:first-of-type i{
+.socialLink1:first-of-type i {
   margin-bottom: -10px;
   font-size: 1.5rem;
 }
-.btnWrapper1{
-    align-self: stretch;
-    display: flex;
-    gap: 1rem;
-    justify-content: space-between;
+.btnWrapper1 {
+  align-self: stretch;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
 }
-.btn1{
-    color: #e6edef;
-    padding: 10px;
-    width:100%
+.btn1 {
+  color: #e6edef;
+  padding: 10px;
+  width: 100%;
 }
-.btn1:hover{
-    background-color: #832a47;
+.btn1:hover {
+  background-color: #832a47;
 }
-.btn1:active{
-    color:gold;
-    background-color: #3c0417;
+.btn1:active {
+  color: gold;
+  background-color: #3c0417;
 }
-.btnUser11{
-    background-color: #806f51;
+.btnUser11 {
+  background-color: #806f51;
 }
-.btnUser12{
-    background-color: #d97961;
+.btnUser12 {
+  background-color: #d97961;
 }
 .userCardCont2 {
   max-width: 22rem;
@@ -132,6 +133,45 @@ h2 {
   align-items: center;
   gap: 0.5rem;
 }
-.userCardCont2:hover{
-    box-shadow: 0 1rem 1rem rgb(186, 186, 186);
+.userCardCont2:hover {
+  box-shadow: 0 1rem 1rem rgb(186, 186, 186);
+}
+.imageWrapper2 {
+  width: 6rem;
+  height: 6rem;
+  background-color: antiquewhite;
+  background-image: url(/assets/images/user2.jpg);
+  /* overflow: hidden; */
+  background-size: cover;
+  background-position: top;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  margin-top: -0.5rem;
+  position: relative;
+}
+.dotsCard2 {
+  align-self: end;
+  font-size: 1.2rem;
+  color: #babebf;
+}
+.userApproveMark {
+  font-size: 0.8rem;
+  color:white;
+  background-color: #2dbd7c;
+  width:1.25rem;
+  height:1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position:absolute;
+  bottom: 4px;
+  right:4px;
+  box-shadow: 0 0 4px 3px #aff6d8;
+}
+.userCardCont2 h1{
+  font-weight: normal;
+}
+.userJob2{
+  color:rgb(128, 128, 128);
 }
