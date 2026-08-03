@@ -237,6 +237,16 @@ h2 {
 .bg-behance{
   background-color: #1a67ff;
 }
+.socialLink1 a, 
+.socialLink2 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
 .socialLink2:hover{
   cursor: pointer;
   color:black;
