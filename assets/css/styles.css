@@ -258,7 +258,7 @@ h2 {
   color:white;
   background-color: #31b6c0;
   cursor: pointer;
-  border: none;
+  border: 1px solid #31b6c0;
   box-shadow: 0 0 2rem rgb(186, 186, 186);
 }
 .viewBtn:active {
