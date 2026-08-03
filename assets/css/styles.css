@@ -225,16 +225,16 @@ h2 {
   overflow: hidden;
 }
 
-.socialLink2:first-child{
+.bg-twitter{
   background-color: #43b3f5;
 }
-.socialLink2:nth-child(2){
+.bg-facebook{
   background-color: #415b9d;
 }
-.socialLink2:nth-child(3){
+.bg-google{
   background-color: #f47764;
 }
-.socialLink2:nth-child(4){
+.bg-behance{
   background-color: #1a67ff;
 }
 .socialLink2:hover{
